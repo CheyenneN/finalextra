@@ -1,13 +1,8 @@
 package com.example.fianl;
 
 public class calculation {
-	btnGo = new JButton("Go!");
-    GridBagConstraints gbc_btnGo = new GridBagConstraints();
-    gbc_btnGo.insets = new Insets(0, 0, 5, 0);
-    gbc_btnGo.gridx = 3;
-    gbc_btnGo.gridy = 6;
-    contentPane.add(btnGo, gbc_btnGo);
-    btnGo.addActionListener(new ActionListener() {
+	btnyes = new android("Calculate!");
+    btnyes.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent arg0) {
 
             double totalGrossIncome = Double.parseDouble(textFieldTotalGrossIncome.getText());
